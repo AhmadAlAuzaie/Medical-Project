@@ -85,8 +85,8 @@ class RiskCalculator:
         # Ensure score is within bounds
         return min(100.0, max(0.0, score))
     
-    @classmethod
-    def determine_risk_level(cls, risk_score: float) -> RiskLevel:
+    @staticmethod
+    def determine_risk_level(risk_score: float) -> RiskLevel:
         """
         Determine the risk level category based on risk score.
         
@@ -96,17 +96,17 @@ class RiskCalculator:
         Returns:
             RiskLevel enum value
         """
-        if risk_score < cls.LOW_THRESHOLD:
+        if risk_score < RiskCalculator.LOW_THRESHOLD:
             return RiskLevel.LOW
-        elif risk_score < cls.MODERATE_THRESHOLD:
+        elif risk_score < RiskCalculator.MODERATE_THRESHOLD:
             return RiskLevel.MODERATE
-        elif risk_score < cls.HIGH_THRESHOLD:
+        elif risk_score < RiskCalculator.HIGH_THRESHOLD:
             return RiskLevel.HIGH
         else:
             return RiskLevel.CRITICAL
     
-    @classmethod
-    def calculate_risk(cls, baby: Baby, assessment: RiskAssessment) -> tuple[float, RiskLevel]:
+    @staticmethod
+    def calculate_risk(baby: Baby, assessment: RiskAssessment) -> tuple[float, RiskLevel]:
         """
         Calculate both risk score and risk level.
         
@@ -117,6 +117,6 @@ class RiskCalculator:
         Returns:
             Tuple of (risk_score, risk_level)
         """
-        risk_score = cls.calculate_risk_score(baby, assessment)
-        risk_level = cls.determine_risk_level(risk_score)
+        risk_score = RiskCalculator.calculate_risk_score(baby, assessment)
+        risk_level = RiskCalculator.determine_risk_level(risk_score)
         return risk_score, risk_level
