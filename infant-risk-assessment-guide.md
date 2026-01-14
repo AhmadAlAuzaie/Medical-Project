@@ -291,9 +291,9 @@ Retrospective data on babies' risk certification in maternity care focuses on **
 
 ## 10. AI in Risk Management for Maternity Care
 
-### Can risk analysts analyse using AI?
+### Can risk analysts analyze using AI?
 
-**Yes, risk analysts can analyse risks using AI.** In the Singapore context, this typically involves leveraging **AI Singapore (AISG) frameworks**, research outputs, and governance-aligned methodologies rather than relying on a single standalone software tool.
+**Yes, risk analysts can analyze risks using AI.** In the Singapore context, this typically involves leveraging **AI Singapore (AISG) frameworks**, research outputs, and governance-aligned methodologies rather than relying on a single standalone software tool.
 
 Analysts commonly use development environments such as **Visual Studio Code** to implement AISG-aligned AI and machine learning pipelines, enabling a shift from reactive, rule-based analysis toward proactive, predictive risk assessment.
 
