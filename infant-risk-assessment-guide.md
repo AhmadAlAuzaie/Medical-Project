@@ -199,9 +199,9 @@ These developmental screening visits align naturally with **AI-supported risk an
 | -------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------ |
 | **Neonatal (0–1 month)**         | Baseline health, feeding, reflexes | Establish baseline risk profile; detect early growth or neurological anomalies |
 | **Early infancy (3–6 months)**   | Motor development, responsiveness  | Pattern detection for delayed motor or sensory development                     |
-| **Late infancy (9–12 months)**   | Mobility, early communication      | Predictive modelling for developmental delay risks                             |
-| **Toddler stage (18–30 months)** | Language & social development      | High-value window for ASD, speech, and behavioural risk modelling              |
-| **Preschool (3–4 years)**        | Cognitive & social readiness       | Risk stratification for learning and behavioural outcomes                      |
+| **Late infancy (9–12 months)**   | Mobility, early communication      | Predictive modeling for developmental delay risks                             |
+| **Toddler stage (18–30 months)** | Language & social development      | High-value window for ASD, speech, and behavioral risk modeling              |
+| **Preschool (3–4 years)**        | Cognitive & social readiness       | Risk stratification for learning and behavioral outcomes                      |
 
 ### 3️⃣ Alignment with retrospective data & risk-certification workflows
 
@@ -299,7 +299,7 @@ Analysts commonly use development environments such as **Visual Studio Code** to
 
 ### AI in Infant Risk Certification
 
-In the area of infant risk certification, retrospective health data is increasingly analysed using AI and machine learning models to:
+In the area of infant risk certification, retrospective health data is increasingly analyzed using AI and machine learning models to:
 
 * Identify potential health risks
 * Support clinical screening
@@ -313,8 +313,8 @@ This work is supported by an integrated analytics toolchain:
 
 * **SQL Server / MySQL databases** for secure storage, processing, and management of retrospective infant health data
 * **Visual Studio Code** as the primary development environment for building, training, and validating AISG-aligned AI models
-* **Power BI and Tableau** for visualising risk indicators, trends, and model outputs through interactive dashboards
-* **Splunk** for operational monitoring, auditability, and detection of anomalous data access or system behaviour
+* **Power BI and Tableau** for visualizing risk indicators, trends, and model outputs through interactive dashboards
+* **Splunk** for operational monitoring, auditability, and detection of anomalous data access or system behavior
 
 Together, AISG frameworks and these tools enable risk analysts to apply AI responsibly to sensitive retrospective data, supporting evidence-based infant risk analysis while maintaining strong governance and regulatory alignment.
 
