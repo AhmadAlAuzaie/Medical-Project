@@ -1,0 +1,135 @@
+{
+  "babies": [
+    {
+      "id": "B001",
+      "first_name": "Emma",
+      "last_name": "Johnson",
+      "date_of_birth": "2024-03-15T08:30:00",
+      "gestational_age_weeks": 38.5,
+      "birth_weight_grams": 3200,
+      "medical_record_number": "MRN001234"
+    },
+    {
+      "id": "B002",
+      "first_name": "Oliver",
+      "last_name": "Smith",
+      "date_of_birth": "2024-02-20T14:45:00",
+      "gestational_age_weeks": 32.0,
+      "birth_weight_grams": 1800,
+      "medical_record_number": "MRN001235"
+    },
+    {
+      "id": "B003",
+      "first_name": "Sophia",
+      "last_name": "Williams",
+      "date_of_birth": "2024-04-10T10:15:00",
+      "gestational_age_weeks": 39.0,
+      "birth_weight_grams": 3450,
+      "medical_record_number": "MRN001236"
+    }
+  ],
+  "assessments": [
+    {
+      "assessment_id": "A001",
+      "baby_id": "B001",
+      "assessment_date": "2024-03-15T12:00:00",
+      "risk_factors": [
+        {
+          "factor_name": "Mild Jaundice",
+          "severity": 3.0,
+          "description": "Mild jaundice detected, monitoring required",
+          "identified_date": "2024-03-15T12:00:00"
+        }
+      ],
+      "overall_risk_level": "low",
+      "risk_score": 30.0,
+      "notes": "Overall healthy baby, routine monitoring recommended",
+      "assessed_by": "Dr. Sarah Chen"
+    },
+    {
+      "assessment_id": "A002",
+      "baby_id": "B002",
+      "assessment_date": "2024-02-20T16:00:00",
+      "risk_factors": [
+        {
+          "factor_name": "Premature Birth",
+          "severity": 7.0,
+          "description": "Born at 32 weeks gestational age",
+          "identified_date": "2024-02-20T14:45:00"
+        },
+        {
+          "factor_name": "Low Birth Weight",
+          "severity": 6.0,
+          "description": "Birth weight 1800g, below normal range",
+          "identified_date": "2024-02-20T14:45:00"
+        },
+        {
+          "factor_name": "Respiratory Distress",
+          "severity": 5.0,
+          "description": "Mild respiratory distress requiring oxygen support",
+          "identified_date": "2024-02-20T15:30:00"
+        }
+      ],
+      "overall_risk_level": "high",
+      "risk_score": 60.0,
+      "notes": "Premature infant requiring NICU care and close monitoring",
+      "assessed_by": "Dr. Michael Rodriguez"
+    },
+    {
+      "assessment_id": "A003",
+      "baby_id": "B003",
+      "assessment_date": "2024-04-10T14:00:00",
+      "risk_factors": [],
+      "overall_risk_level": "low",
+      "risk_score": 0.0,
+      "notes": "Healthy full-term baby with no identified risk factors",
+      "assessed_by": "Dr. Sarah Chen"
+    }
+  ],
+  "certifications": [
+    {
+      "certification_id": "C001",
+      "baby_id": "B001",
+      "assessment_id": "A001",
+      "certification_date": "2024-03-15T16:00:00",
+      "valid_until": "2024-06-15T16:00:00",
+      "status": "certified",
+      "certified_by": "Dr. Sarah Chen",
+      "recommendations": [
+        "Monitor jaundice levels daily for first week",
+        "Follow-up appointment in 2 weeks",
+        "Ensure adequate feeding and hydration"
+      ]
+    },
+    {
+      "certification_id": "C002",
+      "baby_id": "B002",
+      "assessment_id": "A002",
+      "certification_date": "2024-02-20T18:00:00",
+      "valid_until": "2024-05-20T18:00:00",
+      "status": "certified",
+      "certified_by": "Dr. Michael Rodriguez",
+      "recommendations": [
+        "Continue NICU care until respiratory function stabilizes",
+        "Weekly weight monitoring and growth assessment",
+        "Oxygen saturation monitoring",
+        "Developmental follow-up at 6 months corrected age",
+        "Regular pediatric check-ups post-discharge"
+      ]
+    },
+    {
+      "certification_id": "C003",
+      "baby_id": "B003",
+      "assessment_id": "A003",
+      "certification_date": "2024-04-10T16:00:00",
+      "valid_until": "2024-07-10T16:00:00",
+      "status": "certified",
+      "certified_by": "Dr. Sarah Chen",
+      "recommendations": [
+        "Standard newborn care",
+        "First pediatric visit at 2 weeks",
+        "Immunization schedule as per guidelines"
+      ]
+    }
+  ]
+}
