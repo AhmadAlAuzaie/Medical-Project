@@ -175,7 +175,7 @@ Singapore's low infant mortality rate is the result of **system-level strengths*
 
 ## 6. Developmental Screening Schedules
 
-### What is the recommended number of developmental screening for every well-child (infants) in Singapore? What are the recommended number of developmental screening for every well-child (infants) in countries?
+### What is the recommended number of developmental screenings for every well-child (infants) in Singapore? What are the recommended number of developmental screenings for every well-child (infants) in other countries?
 
 ### 1️⃣ Comparison table: developmental screening touchpoints (well-children)
 
